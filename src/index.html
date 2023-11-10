@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEAL</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" crossorigin="anonymous" />
+
+  <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+  
+  <div class = "container">
+    <div class = "mealwrapper">
+      <div class = "mealsearch">
+        <img class="meal" src="meal.jpg">
+        <h2 class = "title">Meal Journal</h2>
+        <h4>A recipe is a story that ends with good meal.<h4>
+
+        <div class = "mealsearch_box">
+          <input type = "text" class = "searchcontrol" placeholder="Enter any recipe you want" id = "searchinput">
+          <button type = "submit" class = "searchbtn btn" id = "searchbtn">
+            <i class = "fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class = "mealresult">
+        <h2 class = "search">Your Search Results:</h2>
+        <div id= "meal">
+
+        </div>
+      </div>
+      <h5>Has any interested recipe?</h5>
+      <a class="mypage"  href="crud.html">My Meal</a>
+
+      <div class = "mealdetails">
+        <button type = "button" class = "btn recclose_btn" id = "recclose_btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <div class = "mealdetails_content">
+ 
+        </div>
+      </div>
+    </div>
+  </div> 
+
+
+  <script src = "script.js"></script>
+
+</body>
+</html>
